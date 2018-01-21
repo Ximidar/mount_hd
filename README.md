@@ -3,7 +3,7 @@
 This is a small script to mount a raspi image to a folder quickly
 
 ### Usage to mount device
-DEVICE should equal mmcblk0 or sdb 
+DEVICE should equal /dev/mmcblk0 or /dev/sdb or sd* 
 
 SD_MOUNT should equal some empty folder. The script will fill the empty folder with two folders
 
